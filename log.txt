@@ -2,3 +2,11 @@
 
 我在第3行加了这句话，测试 `git log -p`
 
+git add .
+
+git commit -m ""
+git commit -a -m ""
+
+查看不同
+git diff 只能查看未暂存的文件区别
+git diff --staged 只能查看暂存的文件区别
