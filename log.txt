@@ -8,7 +8,7 @@ git add .
 提交
 git commit -m ""
 git commit -a -m ""
-git commit --amend
+！！！git commit --amend -m 为了防止一次commit后有漏下的文件，带上-m可以在后面直接定义新的commit message。不带的话，git也会让你在文本编辑器里重新确认一下。
 
 查看不同
 git diff 只能查看未暂存的文件区别
@@ -26,6 +26,10 @@ git log --stat 显示每次提交中统计信息
 git log --graph 显示每次提交中的分支合并等
 
 撤销
+工作区撤销
+暂存区撤销
+- git reset HEAD <file> 重置HEAD指针
+- git restore --staged <file>
 
 
 
