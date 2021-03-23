@@ -32,7 +32,10 @@ git log --graph 显示每次提交中的分支合并等
 暂存区撤销
 - git reset HEAD <file> 重置HEAD指针
 - git restore --staged <file>
-本地仓库撤销
+本地仓库撤销(git reset <commit id>)
+--soft 回退的版本会放在暂存区
+--mixed 回退的版本会放在工作区
+--hard 回退的版本被丢弃
 
 
 
