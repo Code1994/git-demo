@@ -2,11 +2,30 @@
 
 我在第3行加了这句话，测试 `git log -p`
 
+添加
 git add .
 
+提交
 git commit -m ""
 git commit -a -m ""
+git commit --amend
 
 查看不同
 git diff 只能查看未暂存的文件区别
 git diff --staged 只能查看暂存的文件区别（通常可以使用额外的diff-tool替代，譬如vscode自带的功能）或者 git diff --cached
+
+删除暂存区文件（注意不是本地仓库的）--- 不推荐过度使用 可能会导致本身被追踪的文件无缘无故删除。不利于文件历史记录的保存。
+git rm 
+git rm -f 强制删除
+git rm --cached 删除，但保留该文件
+
+日志
+git log
+git log -p 显示每次提交中文件的具体更改
+git log --stat 显示每次提交中统计信息
+git log --graph 显示每次提交中的分支合并等
+
+撤销
+
+
+
