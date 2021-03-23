@@ -9,4 +9,4 @@ git commit -a -m ""
 
 查看不同
 git diff 只能查看未暂存的文件区别
-git diff --staged 只能查看暂存的文件区别
+git diff --staged 只能查看暂存的文件区别（通常可以使用额外的diff-tool替代，譬如vscode自带的功能）或者 git diff --cached

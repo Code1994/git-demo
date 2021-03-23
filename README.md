@@ -9,7 +9,7 @@
 
 `mac` 上直接通过 `brew`
 
-[网站](https://git-scm.com/downloads)
+[官网下载](https://git-scm.com/downloads)
 
 ## 区域
 
