@@ -37,9 +37,23 @@ git log --graph 显示每次提交中的分支合并等
 --mixed 回退的版本会放在工作区
 --hard 回退的版本被丢弃
 
+生成密匙和公钥
+ssh-keygen -t rsa
+
+在 ~/.ssh 文件夹下会生成密匙 id-rsa 以及 id-rsa.pub
+
+复制 id-rsa.pub 文件内容后，粘贴到github的settings的ssh keys中
+
 
 远程仓库
 
+git remote 默认远程仓库是origin
+git remote -v 列出详细的远程仓库列表
+
+git remote add <name> <url> 添加远程仓库地址
+git remote set-url <name> <url> 重新设置某一远程仓库地址
+git remote rm/remove <name> 删除某一远程仓库
+git remote rename <old name> <new name> 远程仓库重命名
 
 
 
