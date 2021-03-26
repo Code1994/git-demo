@@ -67,4 +67,9 @@ git remote rm/remove <name> 删除某一远程仓库
 git remote rename <old name> <new name> 远程仓库重命名
 
 
-
+临时性保存
+git stash
+git stash pop/apply
+git stash list
+git stash pop/apply stash@{2}
+git stash drop stash@{0}
