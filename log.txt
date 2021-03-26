@@ -45,8 +45,19 @@ ssh-keygen -t rsa
 复制 id-rsa.pub 文件内容后，粘贴到github的settings的ssh keys中
 
 
-远程仓库
+推送
+git push <远程仓库名> <本地分支名>:<远程分支名>
 
+拉取
+git pull <远程仓库名> <远程分支名>:<本地分支名>
+
+git fetch <远程仓库名> 默认会拉取远程所有分支
+git fetch <远程仓库名> <远程仓库分支名> 拉取远程某一分支
+远程仓库名是可以自定义的，默认是origin。譬如拉取远程的dev分支，git fetch origin dev。执行之后，本地会有origin/dev的新分支（可用git branch -r来查看）。
+TODO:
+后面就可以使用git merge或者git rebase来合并分支。
+
+远程仓库
 git remote 默认远程仓库是origin
 git remote -v 列出详细的远程仓库列表
 
