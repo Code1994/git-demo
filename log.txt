@@ -76,13 +76,15 @@ git stash drop stash@{0}
 
 创建分支branch
 
+TODO:git branch | grep -v "master" | xargs git branch -D 删除本地除master以外的所有分支
+
 创建标记tag
 git tag <tag名> 创建一个tag
 git tag <tag名> -m "message" 创建带有message的tag
 git tag 查看已存在的tag列表（或者使用git tag -l）
 git tag -d <tag名> 删除一个本地tag
 git push <远程仓库名> <tag名> 将本地的tag推送到远程仓库
-git push <远程仓库名> :<tag名> 删除远程的一个tag
+git push <远程仓库名> :<tag名> 删除远程的一个tag (或者git push <远程仓库名> --delete <tag名>)
 git ls-remote --tags origin 查看远程的所有tag
 
 拉取远程分支与tag
