@@ -1,3 +1,6 @@
 测试git commit -m --amend
 
-测试 git fetch 与 git pull
+我来测试 git fetch 与 git pull 
+
+
+git diff 与 git log
