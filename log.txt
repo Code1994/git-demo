@@ -114,3 +114,9 @@ git merge temp
 git fetch origin master
 git checkout -b newBrach origin/master 根据远程master分支 新建一条分支
 
+
+TODO:
+git merge --no-commit <branch>
+git pull --rebase <name> <branch>
+
+git merge 与 git rebase   git cherry-pick
