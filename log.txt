@@ -100,7 +100,23 @@ git fetch origin --prune 不会覆盖本地
 
 fetch与pull的区别
 git pull origin master
+```shell
 git fetch origin master
+git log master..origin/master
 git merge origin/master
+```
+```shell
+#拉取远程master分支到本地temp分支，会自动创建temp分支
+git fetch origin master:temp
+git diff temp
+git merge temp
+```
+git fetch origin master
+git checkout -b newBrach origin/master 根据远程master分支 新建一条分支
 
 
+TODO:
+git merge --no-commit <branch>
+git pull --rebase <name> <branch>
+
+git merge 与 git rebase   git cherry-pick
