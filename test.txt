@@ -8,4 +8,6 @@ git diff 与 git log
 
 这是一行用来测试我的冲突的文字，create sasgagsgas ays。
 
-这是第二次用来测试我的冲突的文字，create year ays。
+-这是第二次用来测试我，master分支删除了部分文字。
+
++master分支修改test.txt文件。
