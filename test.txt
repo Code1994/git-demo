@@ -4,3 +4,6 @@
 
 
 git diff 与 git log
+
+
+这是一行用来测试冲突的文字，create new Branch, asasaUJ。
