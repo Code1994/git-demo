@@ -7,3 +7,5 @@ git diff 与 git log
 
 
 这是一行用来测试我的冲突的文字，create sasgagsgas ays。
+
+这是第二次用来测试我的冲突的文字，create year ays。
