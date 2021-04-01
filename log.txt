@@ -120,3 +120,7 @@ git merge --no-commit <branch>
 git pull --rebase <name> <branch>
 
 git merge 与 git rebase   git cherry-pick
+
+
+git config --global user.name "maxsu"
+$ git config --global user.email "yiibai.com@gmail.com"
